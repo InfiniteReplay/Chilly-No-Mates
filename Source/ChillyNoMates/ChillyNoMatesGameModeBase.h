@@ -2,17 +2,19 @@
 
 #pragma once
 
+#include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "ChillyNoMatesGameMode.generated.h"
+#include "ChillyNoMatesGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CHILLYNOMATES_API AChillyNoMatesGameMode : public AGameModeBase
+class CHILLYNOMATES_API AChillyNoMatesGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
 	
-	virtual void StartPlay() override;
+	
+	
 };
