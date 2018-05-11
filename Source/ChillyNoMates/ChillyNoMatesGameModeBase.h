@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2018 Infinite Replay. All Rights Reserved.
 
 #pragma once
 
@@ -9,12 +9,11 @@
 /**
  * 
  */
-UCLASS()
-class CHILLYNOMATES_API AChillyNoMatesGameModeBase : public AGameModeBase
+UCLASS(minimalapi)
+class AChillyNoMatesGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
-	
-	
+public:
+	AChillyNoMatesGameModeBase();
 };
